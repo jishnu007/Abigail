@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.slider-content h3 {
+  color: black;
+}
+.slider-content {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex !important;
+  height: 100vh;
+  min-width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.A {
+  background: url("../Images/homepage-banner-03-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.B {
+  background: url("../Images/homepage-banner-02-sd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.C {
+  background: url("../Images/main-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slick-dots {
+  bottom: 50px;
+}
+.slick-prev {
+  left: 50px;
+  z-index: 999;
+}
+.slick-next {
+  right: 50px;
+}

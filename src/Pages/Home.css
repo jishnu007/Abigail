@@ -1,0 +1,12 @@
+.homepage-container {
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.banner-title {
+  font-size: 52px;
+  font-weight: 700;
+  color: #fff;
+}
