@@ -12,6 +12,7 @@ function SimpleSlider() {
     autoplay: true,
     autoplaySpeed: 4000,
   }
+  
   return (
     <Slider {...settings}>
       <div className="slider-content A">

@@ -1,0 +1,117 @@
+.b-icon {
+  font-size: 42px;
+  color: #ffb600;
+}
+.icon-dollar-symbol:before {
+  content: "\e90b";
+}
+.title-link {
+  color: #222;
+  transition: 0.5s;
+  color: #0a2c4e;
+  text-decoration: none;
+}
+.desc {
+  color: #727272;
+}
+
+.outer-container {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.service-box-outer-container {
+  margin: 0px 15px;
+  /* background: #f6f6f6; */
+}
+.service-box-container:hover {
+  background: transparent;
+}
+.service-box-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  color: #0a2c4e;
+  position: relative;
+  justify-content: center;
+  overflow: hidden;
+  /* -webkit-transition: all 0.3s ease-in-out; */
+  box-shadow: 0px 10px 40px 0px rgb(0 0 0 / 5%);
+
+  background: #fff;
+  min-height: 350px;
+}
+.service-box-content {
+  transition: all 0.35s;
+  position: relative;
+}
+.service-box-content p {
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 1.5rem !important;
+  line-height: 1.7;
+  color: #999999;
+  font-weight: 300;
+}
+.overlay-container {
+  transition: opacity 1s;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.service-box-container:hover .overlay-container {
+  opacity: 1;
+}
+.overlay-container:after {
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(10, 44, 78, 0.8);
+  content: "";
+  transition: opacity 1s;
+}
+
+.service-box-content .title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #222;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.service-box-container:hover .service-box-content .title {
+  color: #fff;
+}
+.service-box-container:hover .title .title-link {
+  color: #fff;
+}
+.service-box-container:hover .desc p {
+  color: #f1f1f1;
+}
+
+.slick-dots {
+  top: -60px;
+  right: 0;
+  width: unset;
+}
+
+.slick-dots li button:before {
+  font-size: 20px !important;
+}
+.slick-active button:before {
+  color: orange !important;
+}
+.slick-prev {
+  left: -50px !important;
+  z-index: 999 !important;
+}
+.slick-next {
+  right: -50px !important;
+  z-index: 999 !important;
+}

@@ -1,7 +1,94 @@
-.homepage-container {
-  height: 100vh;
-  text-align: center;
-  justify-content: center;
+.aboutus-section {
+  margin: 0 auto;
+  width: 80%;
+  justify-content: space-between;
+  padding: 5em 0;
   display: flex;
-  flex-direction: column;
+}
+.aboutus-image {
+  float: left;
+  width: 45%;
+  /* background: url(../Images/aboutus-image1.jpg);
+  background-size: cover; */
+}
+.aboutus-image img {
+  max-width: 100%;
+}
+.aboutus-content {
+  flex-direction: flex-end;
+  float: right;
+  width: 45%;
+}
+.aboutus-content h4 {
+  color: #5577b4;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+}
+.aboutus-title {
+  color: #000;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.aboutus-title:after {
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #5577b4;
+}
+.aboutus-content p {
+  font-size: 18px;
+  margin-bottom: 1.5rem !important;
+  line-height: 1.7;
+  color: #999999;
+  font-weight: 300;
+}
+.services-section-outer {
+  width: 100%;
+  background-color: #f8f9fa !important;
+}
+.services-section {
+  margin: 0 auto;
+  width: 80%;
+  justify-content: center;
+  text-align: center;
+  padding: 5em 0;
+}
+.services-section h4 {
+  color: #5577b4;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+}
+.service-section-title {
+  color: #000;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.service-section-title:after {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: #5577b4;
 }

@@ -10,3 +10,12 @@
   /* font-family: "Montserrat", sans-serif; */
   /* font-family: "PT Sans", sans-serif; */
 }
+.body {
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.6;
+  background: #fff;
+  word-wrap: break-word;
+  font-weight: 400;
+  overflow-x: hidden;
+}
