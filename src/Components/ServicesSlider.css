@@ -95,23 +95,27 @@
   color: #f1f1f1;
 }
 
-.slick-dots {
+.outer-container .slick-dots {
   top: -60px;
   right: 0;
   width: unset;
 }
 
-.slick-dots li button:before {
+.outer-container .slick-dots li button:before {
   font-size: 20px !important;
 }
-.slick-active button:before {
+.outer-container .slick-active button:before {
   color: orange !important;
 }
-.slick-prev {
+.outer-container .slick-prev {
   left: -50px !important;
   z-index: 999 !important;
 }
-.slick-next {
+.outer-container .slick-next {
   right: -50px !important;
   z-index: 999 !important;
+}
+
+.outer-container .slick-dots li button:hover .slick-dots li button:before {
+  color: orange !important;
 }

@@ -3,6 +3,9 @@ import "./Home.css"
 import Slider from "../Components/Slider"
 import AboutUsImg from "../Images/aboutus-image1.jpg"
 import ServiceSlider from "../Components/ServiceSlider"
+import Team from "../Components/Team"
+import Contactformimg from "../Images/contact-form-img1.jpg"
+import Footer from "../Components/Footer"
 
 function Home() {
   return (
@@ -38,6 +41,55 @@ function Home() {
           <ServiceSlider />
         </div>
       </div>
+
+      {/* Our Team Section */}
+      <div className="team-section-outer">
+        <div className="team-section">
+          <h4>Our Team</h4>
+          <h2 className="team-section-title">Who We Are</h2>
+          <Team />
+        </div>
+      </div>
+      {/* Contact Form Section */}
+      <div className="contact-section">
+        <div className="contact-section-content">
+          <div className="cotact-info">
+            <div className="contact-image">
+              <img src={Contactformimg} alt="contact" />
+              <div className="contact-overlay">
+                <div className="contact-text"></div>
+              </div>
+            </div>
+          </div>
+          <div className="contact-form-outer">
+            <h4>Contact Form</h4>
+            <h2 className="contact-section-title">Let's discuss</h2>
+            <form className="contact-form">
+              <div>
+                <input type="text" className="name" placeholder="Your Name" />
+                <input
+                  type="text"
+                  className="email"
+                  placeholder="Email Address"
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  className="phone-no"
+                  placeholder="Phone Number"
+                />
+                <input type="text" className="subject" placeholder="Subject" />
+              </div>
+              <textarea className="message" rows="5" placeholder="Message" />
+              <input type="submit" className="submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+
+      {/* Footer Section */}
+      <Footer />
     </div>
   )
 }
