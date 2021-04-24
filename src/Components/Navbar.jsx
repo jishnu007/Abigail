@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import "./Navbar.css"
+import logo from "../Images/abigail white.png"
 function Navbar() {
   let [isMenuOn, setIsMenuOn] = useState(false)
   let [button, setButton] = useState(true)
@@ -24,7 +25,7 @@ function Navbar() {
         <div className="navbar">
           <div className="navbar-container">
             <Link to="/" className="navbar-logo">
-              ABIGAIL
+              <img src={logo} alt="logo" width="240px" height="80px" />
             </Link>
             <div className="menu-icon" onClick={handleMenu}>
               <i className={isMenuOn ? "fas fa-times" : "fas fa-bars"} />

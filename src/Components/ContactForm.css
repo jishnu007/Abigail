@@ -1,0 +1,40 @@
+.contact-form {
+  padding: 0% 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form div {
+  display: flex;
+  justify-content: space-between;
+}
+input[type="text"] {
+  width: 45%;
+  color: #616161;
+  border: 1px solid #f5f0f0;
+  padding: 15px 20px;
+  outline: none;
+  margin-bottom: 20px;
+}
+input.submit {
+  color: #616161;
+  border: 1px solid #f5f0f0;
+  padding: 15px 20px;
+  outline: none;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-out 0s;
+}
+input.submit:hover {
+  background: #5577b4;
+  color: #fff;
+  transition: all 0.3s ease-in 0s;
+}
+
+textarea {
+  width: 100%;
+  color: #616161;
+  border: 1px solid #f5f0f0;
+  padding: 15px 20px;
+  outline: none;
+  margin-bottom: 20px;
+}

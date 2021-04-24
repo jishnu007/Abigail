@@ -1,0 +1,80 @@
+.footer-outer-container {
+  width: 100%;
+  display: flex;
+  background: #181818;
+}
+.footer-container {
+  margin: 0 auto;
+  width: 80%;
+  justify-content: space-between;
+  text-align: center;
+  padding: 5em 0;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-transform: none;
+  color: #ffffff;
+  display: flex;
+}
+.footer-section-title {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  line-height: 30px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 50px;
+  margin: 24px 0px 30px;
+  position: relative;
+}
+.footer-section-title:before {
+  background-color: rgba(225, 229, 235, 0.5);
+  top: auto;
+  bottom: -16px;
+  content: "";
+  position: absolute;
+  left: 0px;
+  height: 2px;
+  width: 40px;
+  transition: all 0.3s linear;
+  /* top: -24px; */
+}
+
+.about-company-outer,
+.contact-outer,
+.footer-servces {
+  width: 30%;
+  position: relative;
+}
+
+.contact-widget {
+  margin: 5px;
+  margin-bottom: 10px;
+}
+span.fa {
+  font-size: 32px;
+  float: left;
+  margin: 3px 10px 0px 0px;
+  width: 30px;
+  text-align: center;
+}
+.fa-map-marker:before {
+  content: "\f041";
+}
+.contact-inner {
+  display: flex;
+  flex-direction: column;
+}
+.contact-widget a {
+  color: #fff;
+  text-decoration: none;
+}
+.about-company-outer:hover .footer-section-title:before,
+.contact-outer:hover .footer-section-title:before,
+.footer-servces:hover .footer-section-title:before {
+  background-color: #54e7b3;
+  width: 100px;
+}

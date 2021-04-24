@@ -6,10 +6,13 @@ import ServiceSlider from "../Components/ServiceSlider"
 import Team from "../Components/Team"
 import Contactformimg from "../Images/contact-form-img1.jpg"
 import Footer from "../Components/Footer"
+import Navbar from "../Components/Navbar"
+import ContactForm from "../Components/ContactForm"
 
 function Home() {
   return (
     <div className="homepage-container">
+      <Navbar />
       <Slider />
       <div className="aboutus-section">
         <div className="aboutus-image">
@@ -56,6 +59,7 @@ function Home() {
           <div className="cotact-info">
             <div className="contact-image">
               <img src={Contactformimg} alt="contact" />
+
               <div className="contact-overlay">
                 <div className="contact-text"></div>
               </div>
@@ -64,26 +68,7 @@ function Home() {
           <div className="contact-form-outer">
             <h4>Contact Form</h4>
             <h2 className="contact-section-title">Let's discuss</h2>
-            <form className="contact-form">
-              <div>
-                <input type="text" className="name" placeholder="Your Name" />
-                <input
-                  type="text"
-                  className="email"
-                  placeholder="Email Address"
-                />
-              </div>
-              <div>
-                <input
-                  type="text"
-                  className="phone-no"
-                  placeholder="Phone Number"
-                />
-                <input type="text" className="subject" placeholder="Subject" />
-              </div>
-              <textarea className="message" rows="5" placeholder="Message" />
-              <input type="submit" className="submit" />
-            </form>
+            <ContactForm />
           </div>
         </div>
       </div>

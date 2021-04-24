@@ -120,64 +120,10 @@
   margin: 0 auto;
   background-color: #f8f9fa !important;
 }
-.contact-form {
-  padding: 0% 10%;
-  display: flex;
-  flex-direction: column;
-}
-.cotact-info img {
-  max-width: -webkit-fill-available;
-  min-width: -webkit-fill-available;
-}
-.contact-form div {
-  display: flex;
-  justify-content: space-between;
-}
-input[type="text"] {
-  width: 45%;
-  color: #616161;
-  border: 1px solid #f5f0f0;
-  padding: 15px 20px;
-  outline: none;
-  margin-bottom: 20px;
-}
-input.submit {
-  color: #616161;
-  border: 1px solid #f5f0f0;
-  padding: 15px 20px;
-  outline: none;
-  margin-bottom: 20px;
-  transition: all 0.3s ease-out 0s;
-}
-input.submit:hover {
-  background: #5577b4;
-  color: #fff;
-  transition: all 0.3s ease-in 0s;
-}
-
-textarea {
-  width: 100%;
-  color: #616161;
-  border: 1px solid #f5f0f0;
-  padding: 15px 20px;
-  outline: none;
-  margin-bottom: 20px;
-}
 
 .contact-section-content {
   display: flex;
 }
 .contact-form-outer h4 {
   margin-top: 50px;
-}
-
-.contact-overlay {
-  background: #5577b4;
-  opacity: 0.7;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
 }

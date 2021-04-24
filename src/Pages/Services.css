@@ -1,0 +1,21 @@
+.service-page-outer-container .aboutus-section .aboutus-content {
+  width: 100%;
+}
+.serice-page-content {
+  width: 60%;
+}
+.service-page-container {
+  display: flex;
+  flex-direction: row;
+}
+.service-page-container .contact-form {
+  padding: 0;
+  position: fixed;
+  top: 90px;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
