@@ -172,8 +172,11 @@ function Services() {
             </div>
           </div>
         </div>
-        <div className="myDiv hide" id="myDiv" ref={inputRef} height="100px">
-          <ContactForm />
+        <div className="myDiv hide" id="myDiv" ref={inputRef}>
+          <div className="service-contact">
+            <h2>Book An Appoinment</h2>
+            <ContactForm />
+          </div>
         </div>
       </div>
     </div>

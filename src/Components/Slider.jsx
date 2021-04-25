@@ -12,7 +12,7 @@ function SimpleSlider() {
     autoplay: true,
     autoplaySpeed: 4000,
   }
-  
+
   return (
     <Slider {...settings}>
       <div className="slider-content A">
@@ -32,7 +32,9 @@ function SimpleSlider() {
           ensures efficiency and excellence,
           <br /> which works together to achieve success.
         </h3>
-        <button className="banner-button">Read More</button>
+        <a href="/aboutus" className="banner-button">
+          Read More
+        </a>
       </div>
     </Slider>
   )

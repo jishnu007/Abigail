@@ -78,3 +78,6 @@ span.fa {
   background-color: #54e7b3;
   width: 100px;
 }
+.footer-servces ul li {
+  list-style: none;
+}

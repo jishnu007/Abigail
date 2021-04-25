@@ -56,6 +56,7 @@
   width: 100%;
   background-color: #f8f9fa !important;
 }
+.looking-for-container,
 .team-section,
 .services-section {
   margin: 0 auto;
@@ -113,6 +114,9 @@
 .cotact-info {
   width: 50%;
 }
+.contact-image img {
+  max-width: -webkit-fill-available;
+}
 .contact-form-outer {
   align-items: center;
   width: 50%;
@@ -126,4 +130,20 @@
 }
 .contact-form-outer h4 {
   margin-top: 50px;
+}
+
+.looking-for-content {
+  align-items: center;
+  padding: 3em 0;
+  text-align: left;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.looking-for-content .banner-button {
+  margin-top: 0;
+}
+.looking-for-heading span {
+  color: #ffb600;
 }

@@ -36,13 +36,13 @@ function Team() {
         image={image1}
         desc={desc1}
       />
-      <Person
+      {/* <Person
         id="2"
         name="Riyaz Moosa"
         role="Managing Partner"
         image={image2}
         desc={desc2}
-      />
+      /> */}
     </div>
   )
 }

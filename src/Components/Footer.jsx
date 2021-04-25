@@ -1,5 +1,7 @@
 import React from "react"
 import "./Footer.css"
+import { Link } from "react-router-dom"
+import logo from "../Images/abigail white.png"
 
 function Footer() {
   return (
@@ -7,12 +9,13 @@ function Footer() {
       <div className="footer-container">
         <div className="about-company-outer">
           <h3 class="footer-section-title">Abigail</h3>
+
           <p>
             Abigail Accounting and Bookkeeping is a fresh entity which we
             started as a service providing unit.
           </p>
           <a href="/">
-            {/* <img src="https://1t6axa1uj4tx220cae28wfic-wpengine.netdna-ssl.com/wp-content/uploads/2017/06/footer-logo.png" alt=""> */}
+            <img src={logo} alt="logo" width="240px" height="80px" />
           </a>
         </div>
         <div className="footer-servces">

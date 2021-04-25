@@ -7,7 +7,11 @@ function ServiceSlide(props) {
   //     backgroundImage: props.imageurl,
   //   }
   return (
-    <div className="service-box-outer-container">
+    <div
+      className="service-box-outer-container"
+      data-aos="flip-right"
+      data-aos-duration="1000"
+    >
       <div className="service-box-container">
         <div
           className="overlay-container"
@@ -20,10 +24,7 @@ function ServiceSlide(props) {
           <Icon icon={`${props.icon}`} size={50} color="orange" />
 
           <h4 class="title">
-            <a
-              href="http://amwal.miraclestudio.design/service/bonds-commodities/"
-              class="title-link"
-            >
+            <a href="/" class="title-link">
               {props.title}
             </a>
           </h4>
