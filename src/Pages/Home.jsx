@@ -10,7 +10,7 @@ import Footer from "../Components/Footer"
 import Navbar from "../Components/Navbar"
 import ContactForm from "../Components/ContactForm"
 import TextLoop from "react-text-loop"
-import { Parallax, Background } from "react-parallax"
+import { Parallax } from "react-parallax"
 function Home() {
   return (
     <div className="homepage-container">

@@ -1,7 +1,7 @@
 import React from "react"
 import Person from "./Person"
 import image1 from "../Images/01-1.png"
-import image2 from "../Images/03-1.png"
+// import image2 from "../Images/03-1.png"
 
 function Team() {
   const desc1 = (
@@ -17,16 +17,16 @@ function Team() {
       manager in the recent past in UAE in well reputed organization.
     </p>
   )
-  const desc2 = (
-    <p>
-      Having 18+ years of overall experience in various organization.
-      <br /> <br />
-      Very vigilant and active in all the accounting areas.
-      <br />
-      <br /> Worked as Finance manager and single handedly handled all the
-      operations in the last organization.
-    </p>
-  )
+  // const desc2 = (
+  //   <p>
+  //     Having 18+ years of overall experience in various organization.
+  //     <br /> <br />
+  //     Very vigilant and active in all the accounting areas.
+  //     <br />
+  //     <br /> Worked as Finance manager and single handedly handled all the
+  //     operations in the last organization.
+  //   </p>
+  // )
   return (
     <div className="team-section-inner">
       <Person
